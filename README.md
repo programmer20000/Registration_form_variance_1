@@ -1,1 +1,1 @@
-# reg_form
+# REGISTRATION_FORM
