@@ -1,6 +1,7 @@
 body{
     background: rgb(0,224,255);
     background: linear-gradient(49deg, rgba(0,224,255,1) 0%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 29%, rgba(30,84,85,1) 44%, rgb(9, 10, 10) 45%, rgb(25, 27, 27) 82%, rgb(0, 0, 0) 82%);
+    max-width: 1200px;
 }
 .box{
     font-family:'Times New Roman', Times, serif;
