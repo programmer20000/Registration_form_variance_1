@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=divice-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="box">
         <form action="#" name="Registration_form" >
-            <input type="text" name="emailField" placeholder="Enter your email" id="emailInput">
+            <p>First Name</p>
+            <input type="text" name="FirstField" placeholder="Enter first Name" id="FirstField">
+            <p>Last Naame</p>
+            <input type="text" name="LastName" placeholder="Enter Last Name" id="LastName">
+            <p>Email</p>
+            <input type="email" name="emailField" placeholder="Enter your email" id="emailInput">
+            <p>Password</p>
             <input type="password" name="passwordField" placeholder="Enter your password" id="passwordInput">
-            <input type="submit" name="Buttonsubmit"  id="Buttonsubmit" onclick="onClickButton()">
+            <button type="submit" name="Buttonsubmit"  id="Buttonsubmit" onclick="onClickButton()">submit</button>
         </form>
     </div>
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/function.js" type="text/javascript "></script>
 </body>
 </html>

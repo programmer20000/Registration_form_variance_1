@@ -1,23 +1,33 @@
 body{
-    background: rgb(0,224,255);
-    background: linear-gradient(49deg, rgba(0,224,255,1) 0%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 29%, rgba(30,84,85,1) 44%, rgb(9, 10, 10) 45%, rgb(25, 27, 27) 82%, rgb(0, 0, 0) 82%);
-    max-width: 1200px;
-}
-.box{
+    background: url("../css/image/background_image.jpg") no-repeat;
+    background-size: cover;
+    color: white;
     font-family:'Times New Roman', Times, serif;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(0, 0, 0) 35%, rgb(0, 0, 0) 100%);
-    margin: auto;
-    top: 20px;
-    width: 50%;
-    padding: 10px;
+}
+
+.box{
+    position: absolute;
     width: 400px;
     height: 200px;
-    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
 }
 
-#emailField:hover{
-    background: blue;
+.box p{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
 }
 
+.box input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    
+}
