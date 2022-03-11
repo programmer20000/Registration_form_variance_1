@@ -1,16 +1,13 @@
-var mainForm = document.forms["Registration_form"]["emailField"]["passwordField"].value;
+let InputArray = []
 
-let  Button = document.getElementById("Buttonsubmit");
 let emailInput = document.getElementById("emailInput");
 let passwordInput = document.getElementById("passwordInput");
-Button.addEventListener("click",onClickButton)
- 
-var emailextension = "mihai";
-var number = 11
-
-function onClickButton() {
-    if(emailInput.value === emailextension ){
-        alert("Hi".toLocaleUpperCase())
-    }
-
-}
+let  Button = document.getElementById("Buttonsubmit");
+InputArray.push(
+    emailInput.value,
+    passwordInput.value,
+)
+Button.addEventListener("click",onClickButton())
+ function name(params) {
+     
+ }
